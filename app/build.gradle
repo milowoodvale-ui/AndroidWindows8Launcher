@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.codex.windows8launcher"
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.codex.windows8launcher"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
